@@ -1,0 +1,163 @@
+{
+  "id": "en-grammar",
+  "course": "en",
+  "name": "英语语法要点",
+  "description": "写作与考试里最容易错、也最容易改对的语法点。",
+  "cards": [
+    {
+      "id": "en-gram-001",
+      "type": "quiz",
+      "prompt": "选出正确的一项：Neither of the reports ___ been proofread.",
+      "choices": ["have", "has", "are", "were"],
+      "answer": 1,
+      "explanation": "neither of + 复数名词作主语时，正式语法中谓语用单数（neither 本义是「两者中任何一个都不」）。口语里 have 也常见，但考试以 has 为准。",
+      "tags": ["主谓一致"]
+    },
+    {
+      "id": "en-gram-002",
+      "type": "quiz",
+      "prompt": "选出正确的一项：The number of applicants ___ increasing every year.",
+      "choices": ["are", "is", "have been", "were"],
+      "answer": 1,
+      "explanation": "the number of ...（……的数量）是单数主语；a number of ...（许多……）才是复数。这一对是主谓一致的经典陷阱。",
+      "tags": ["主谓一致"]
+    },
+    {
+      "id": "en-gram-003",
+      "type": "quiz",
+      "prompt": "选出正确的一项：She suggested that he ___ the report before Friday.",
+      "choices": ["submits", "submit", "would submit", "submitted"],
+      "answer": 1,
+      "explanation": "suggest / demand / insist / require 等词后的 that 从句用虚拟语气（should + 动词原形，should 可省略），所以是 submit 而非 submits。",
+      "tags": ["虚拟语气"]
+    },
+    {
+      "id": "en-gram-004",
+      "type": "quiz",
+      "prompt": "选出正确的一项：By the time we arrived, the lecture ___.",
+      "choices": ["already began", "had already begun", "has already begun", "already begins"],
+      "answer": 1,
+      "explanation": "「过去的过去」用过去完成时：arrived 是过去，begin 发生在 arrived 之前，故 had begun。",
+      "tags": ["时态"]
+    },
+    {
+      "id": "en-gram-005",
+      "type": "quiz",
+      "prompt": "选出正确的一项：Hardly ___ the office when the phone rang.",
+      "choices": ["he had left", "had he left", "he left", "did he left"],
+      "answer": 1,
+      "explanation": "hardly / scarcely / no sooner 置于句首时句子要部分倒装：Hardly had he left...。no sooner 后接 had + 过去分词、than 引导从句。",
+      "tags": ["倒装"]
+    },
+    {
+      "id": "en-gram-006",
+      "type": "quiz",
+      "prompt": "选出正确的一项：This is the engineer ___ design won the award.",
+      "choices": ["who", "whose", "which", "that"],
+      "answer": 1,
+      "explanation": "先行词是人，且从句缺少定语（谁的设计），用 whose。whose 也可指物：the book whose cover is torn。",
+      "tags": ["定语从句"]
+    },
+    {
+      "id": "en-gram-007",
+      "type": "quiz",
+      "prompt": "选出正确的一项：I would rather you ___ nothing about it for now.",
+      "choices": ["say", "said", "will say", "have said"],
+      "answer": 1,
+      "explanation": "would rather + 从句表「宁愿别人做/不做某事」时，从句用过去式（虚拟语气）：I would rather you said nothing.",
+      "tags": ["虚拟语气"]
+    },
+    {
+      "id": "en-gram-008",
+      "type": "vocab",
+      "prompt": "stop to do 与 stop doing 的区别？",
+      "answer": "stop to do = 停下来（手头的事）去做另一件事；stop doing = 停止做某事。例：He stopped to smoke.（停下活去抽烟）/ He stopped smoking.（戒烟）",
+      "explanation": "同类对：remember to do（记得要去做）/ remember doing（记得做过）、forget / regret 同理——不定式指向未来，动名词指向已发生。",
+      "tags": ["非谓语"]
+    },
+    {
+      "id": "en-gram-009",
+      "type": "vocab",
+      "prompt": "few 与 a few、little 与 a little 的区别？",
+      "answer": "few / little 表「几乎没有」（否定倾向）；a few / a little 表「有一些」（肯定倾向）。few/a few 接可数名词，little/a little 接不可数名词。",
+      "explanation": "例：He has few friends.（几乎没朋友，惨）/ He has a few friends.（还有几个朋友）。",
+      "tags": ["限定词"]
+    },
+    {
+      "id": "en-gram-010",
+      "type": "vocab",
+      "prompt": "used to do、be used to doing、be used to do 三者分别是什么意思？",
+      "answer": "used to do 过去常常做（现在不做了）；be used to doing 习惯于做；be used to do 被用来做（use 的被动）。",
+      "explanation": "例：I used to get up late. / I'm used to getting up early. / This knife is used to cut bread. 三个长得像，意思完全不同。",
+      "tags": ["易混"]
+    },
+    {
+      "id": "en-gram-011",
+      "type": "quiz",
+      "prompt": "选出正确的一项：No sooner ___ than it started to rain.",
+      "choices": ["we had set out", "had we set out", "we set out", "did we set out"],
+      "answer": 1,
+      "explanation": "no sooner 置于句首倒装，且时态是过去完成时；从句用 than + 一般过去时：No sooner had we set out than it started to rain.",
+      "tags": ["倒装"]
+    },
+    {
+      "id": "en-gram-012",
+      "type": "vocab",
+      "prompt": "「the more..., the more...」句型的语法结构是什么？",
+      "answer": "比较级 + 倒装/陈述语序的固定句型，表示「越……越……」：The more you practice, the better you get. 注意两个分句都不加 that。",
+      "explanation": "源自拉丁式比例结构，the 在这里是副词（古英语指示副词），不是定冠词。",
+      "tags": ["句型"]
+    },
+    {
+      "id": "en-gram-013",
+      "type": "quiz",
+      "prompt": "选出正确的一项：It was not until midnight ___ the server recovered.",
+      "choices": ["when", "that", "which", "since"],
+      "answer": 1,
+      "explanation": "It was not until ... that ... 是强调句的固定形式（强调时间状语），只能用 that。这是「not until 强调句」的标准考点。",
+      "tags": ["强调句"]
+    },
+    {
+      "id": "en-gram-014",
+      "type": "vocab",
+      "prompt": "英语写作里 which 和 that 引导定语从句的核心区别（英美习惯差异）？",
+      "answer": "限制性从句（不可删）美式偏好 that 且常省略关系词；非限制性从句（可删、有逗号）只能用 which。英式 which 两者皆可用，但非限制性永远不用 that。",
+      "explanation": "例：The key that opens the door is here.（限制性）/ The key, which is brass, opens the door.（非限制性）。",
+      "tags": ["定语从句"]
+    },
+    {
+      "id": "en-gram-015",
+      "type": "quiz",
+      "prompt": "选出正确的一项：If I ___ you, I would take the offer.",
+      "choices": ["am", "was", "were", "will be"],
+      "answer": 2,
+      "explanation": "对现在事实的相反假设（第二条件句），be 动词一律用 were：If I were you...。正式写作中 was 视为不规范。",
+      "tags": ["虚拟语气"]
+    },
+    {
+      "id": "en-gram-016",
+      "type": "vocab",
+      "prompt": "现在完成时 have done 与一般过去时 did 的分界线是什么？",
+      "answer": "与「现在」相关、强调影响或结果 → 完成时；有明确过去时间点（yesterday / in 2020 / last week）→ 过去时。完成时不能与明确过去时间状语连用。",
+      "explanation": "例：I have finished the report.（现在能用它了）/ I finished it last night.（昨晚完成，时间点明确）。",
+      "tags": ["时态"]
+    },
+    {
+      "id": "en-gram-017",
+      "type": "quiz",
+      "prompt": "选出正确的一项：The committee ___ divided on the proposal.（成员意见分歧）",
+      "choices": ["is", "are", "was only", "has been only"],
+      "answer": 1,
+      "explanation": "集合名词看语义：作整体 → 单数（The committee is 50 years old）；强调成员各自的动作/意见 → 复数（The committee are divided）。divided、argue、disagree 这类词通常取复数。",
+      "tags": ["主谓一致"]
+    },
+    {
+      "id": "en-gram-018",
+      "type": "vocab",
+      "prompt": "「尽管」although 与 however 作连词时最常见的错误用法是什么？",
+      "answer": "although 是连词，直接连接两个分句且不能再加 but；however 是连接副词，需要独立分句加逗号（..., however, ...）。典型错误：Although..., but...（中式英语双连词）。",
+      "explanation": "例：Although it rained, we went out. / It rained; however, we went out. 一句里 although 和 but 只能留一个。",
+      "tags": ["连接词", "写作"]
+    }
+  ]
+}

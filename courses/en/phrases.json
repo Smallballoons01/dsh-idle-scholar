@@ -1,0 +1,128 @@
+{
+  "id": "en-phrases",
+  "course": "en",
+  "name": "英语高频短语",
+  "description": "地道搭配与短语动词，主打「每个词都认识、合在一起不认识」。",
+  "cards": [
+    {
+      "id": "en-phr-001",
+      "type": "vocab",
+      "prompt": "短语 **carry out** 是什么意思？",
+      "answer": "执行、实施（carry out a plan / an experiment / a survey）",
+      "explanation": "例：The team carried out a series of tests. 名词化 carryout 在美式口语里指外卖，另当别论。",
+      "tags": ["短语动词"]
+    },
+    {
+      "id": "en-phr-002",
+      "type": "vocab",
+      "prompt": "**put up with** 是什么意思？",
+      "answer": "忍受，容忍（多用于不愉快的事）",
+      "explanation": "例：I can't put up with this noise any longer. 比 tolerate 更口语化。",
+      "tags": ["短语动词"]
+    },
+    {
+      "id": "en-phr-003",
+      "type": "vocab",
+      "prompt": "**break down** 有哪几个常用义项？",
+      "answer": "① （机器）出故障；② （谈判/沟通）崩溃、破裂；③ （人）情绪失控大哭；④ 分解（break down the costs 细分）",
+      "explanation": "例：The talks broke down. / She broke down in tears. / Let me break down the budget for you.",
+      "tags": ["短语动词", "一词多义"]
+    },
+    {
+      "id": "en-phr-004",
+      "type": "vocab",
+      "prompt": "**on behalf of** 是什么意思？",
+      "answer": "代表……（on behalf of the company 代表公司）",
+      "explanation": "例：It's my honor to speak on behalf of the team. 注意别写成 in behalf（旧式，现仅表「为了……的利益」）。",
+      "tags": ["介词短语"]
+    },
+    {
+      "id": "en-phr-005",
+      "type": "vocab",
+      "prompt": "**catch up on** 与 **catch up with** 的区别？",
+      "answer": "catch up on + 事：补上没做的事（catch up on sleep / emails）；catch up with + 人：赶上某人，或叙旧（catch up with an old friend）",
+      "explanation": "例：I need to catch up on the latest spec. / Let's catch up over coffee.",
+      "tags": ["短语动词", "辨析"]
+    },
+    {
+      "id": "en-phr-006",
+      "type": "vocab",
+      "prompt": "**in terms of** 是什么意思？",
+      "answer": "就……而言，在……方面",
+      "explanation": "例：In terms of performance, the new model wins. 写作高频，但别每段都用，考官会腻。",
+      "tags": ["介词短语"]
+    },
+    {
+      "id": "en-phr-007",
+      "type": "vocab",
+      "prompt": "**rule out** 是什么意思？",
+      "answer": "排除（可能性）：rule out the possibility of ...",
+      "explanation": "例：The doctor ruled out a fracture. 源自「用尺划掉」。",
+      "tags": ["短语动词"]
+    },
+    {
+      "id": "en-phr-008",
+      "type": "vocab",
+      "prompt": "**account for** 有哪两个高频义项？",
+      "answer": "① 占（比例）：Women account for 60% of the workforce. ② 解释、说明：He had to account for the missing funds.",
+      "explanation": "数据类图表作文第一句就能用上义项①。",
+      "tags": ["短语动词"]
+    },
+    {
+      "id": "en-phr-009",
+      "type": "vocab",
+      "prompt": "**take ... for granted** 是什么意思？",
+      "answer": "把……视为理所当然；对……不予珍惜（He takes his parents' support for granted.）",
+      "explanation": "另一用法 take it for granted that ...（想当然认为）。",
+      "tags": ["习语"]
+    },
+    {
+      "id": "en-phr-010",
+      "type": "vocab",
+      "prompt": "**figure out** 是什么意思？",
+      "answer": "想出、弄明白（figure out a solution / what went wrong）",
+      "explanation": "例：I can't figure out why the build fails. 程序员最高频短语之一。",
+      "tags": ["短语动词"]
+    },
+    {
+      "id": "en-phr-011",
+      "type": "vocab",
+      "prompt": "**come up with** 是什么意思？",
+      "answer": "想出、提出（办法、主意）：come up with a proposal",
+      "explanation": "与 figure out 相邻但分工不同：figure out 侧重「搞懂」，come up with 侧重「产出新东西」。",
+      "tags": ["短语动词"]
+    },
+    {
+      "id": "en-phr-012",
+      "type": "vocab",
+      "prompt": "**as far as ... is concerned** 是什么意思？",
+      "answer": "就……而论，至于……（As far as cost is concerned, we're on budget.）",
+      "explanation": "书面化的「在……方面」，与 in terms of 同义，可交替使用避免重复。",
+      "tags": ["句型"]
+    },
+    {
+      "id": "en-phr-013",
+      "type": "vocab",
+      "prompt": "**get around to** 是什么意思？",
+      "answer": "（终于）抽出时间去做：I finally got around to reading the manual.",
+      "explanation": "后接动名词。暗示拖了很久才做——很诚实的短语。",
+      "tags": ["短语动词"]
+    },
+    {
+      "id": "en-phr-014",
+      "type": "vocab",
+      "prompt": "**the last thing I want** 是什么意思？",
+      "answer": "我最不愿做的事：The last thing I want is another meeting.（字面「最后一件」实为「最不想要」）",
+      "explanation": "类似的反直觉结构：the last person（最不可能的人）、the last place（最不想去的地方）。",
+      "tags": ["习语"]
+    },
+    {
+      "id": "en-phr-015",
+      "type": "vocab",
+      "prompt": "**fall back on** 是什么意思？",
+      "answer": "退而依靠，求助于（储备、备选方案）：If the plan fails, we fall back on the old process.",
+      "explanation": "例：She has her accounting degree to fall back on. 与 backup（备份）意象相通。",
+      "tags": ["短语动词"]
+    }
+  ]
+}

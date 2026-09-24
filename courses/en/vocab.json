@@ -1,0 +1,224 @@
+{
+  "id": "en-vocab",
+  "course": "en",
+  "name": "英语核心词汇",
+  "description": "CET-4/6 与雅思高频词，选词偏「认识但说不清」的那一类。",
+  "cards": [
+    {
+      "id": "en-vocab-001",
+      "type": "vocab",
+      "prompt": "**serendipity** 是什么意思？",
+      "hint": "名词，与「偶然」有关",
+      "answer": "意外发现美好事物的运气；机缘巧合",
+      "explanation": "例：Meeting her at the conference was pure serendipity. 词源出自童话《The Three Princes of Serendip》——王子们总是靠意外发现宝藏。",
+      "tags": ["CET6", "名词"]
+    },
+    {
+      "id": "en-vocab-002",
+      "type": "vocab",
+      "prompt": "**ubiquitous** 是什么意思？",
+      "hint": "形容词，形容手机、二维码这类东西",
+      "answer": "无处不在的，十分普遍的",
+      "explanation": "例：Smartphones have become ubiquitous in modern life. 拉丁词根 ubique = everywhere（到处）。",
+      "tags": ["CET6", "雅思"]
+    },
+    {
+      "id": "en-vocab-003",
+      "type": "vocab",
+      "prompt": "**procrastinate** 是什么意思？",
+      "hint": "动词，你可能现在就在做",
+      "answer": "拖延，磨蹭（把该做的事往后推）",
+      "explanation": "例：Stop procrastinating and start writing. 拉丁词根 cras = 明天，「总想着明天再做」。",
+      "tags": ["CET6"]
+    },
+    {
+      "id": "en-vocab-004",
+      "type": "vocab",
+      "prompt": "**pragmatic** 与 **dogmatic** 的核心区别？",
+      "hint": "一个看效果，一个看教条",
+      "answer": "pragmatic 务实的（以实际效果为准）；dogmatic 教条的（固守信条不接受质疑）",
+      "explanation": "例：a pragmatic approach to the problem / a dogmatic insistence on the old rules。反义联想记忆。",
+      "tags": ["CET6", "辨析"]
+    },
+    {
+      "id": "en-vocab-005",
+      "type": "vocab",
+      "prompt": "**mitigate** 是什么意思？",
+      "hint": "动词，常与 risk / damage 搭配",
+      "answer": "缓解，减轻（危害、风险、痛苦的程度）",
+      "explanation": "例：Measures to mitigate climate risk. 与 militate（产生影响，常接 against）拼写相近但完全不同义，注意区分。",
+      "tags": ["CET6", "雅思"]
+    },
+    {
+      "id": "en-vocab-006",
+      "type": "vocab",
+      "prompt": "**cynical** 是什么意思？",
+      "hint": "形容词，形容「谁都靠不住」的语气",
+      "answer": "愤世嫉俗的；认为人皆自私的",
+      "explanation": "例：He's cynical about politicians' promises. 与 skeptical（怀疑但讲证据）不同：cynical 是先认定人心坏。",
+      "tags": ["CET6", "辨析"]
+    },
+    {
+      "id": "en-vocab-007",
+      "type": "vocab",
+      "prompt": "**diligent** 是什么意思？",
+      "hint": "形容词，夸人工作的",
+      "answer": "勤奋的，尽职尽责的",
+      "explanation": "例：a diligent researcher。名词 diligence（勤勉）；法律里 due diligence = 尽职调查，同一词源。",
+      "tags": ["CET4"]
+    },
+    {
+      "id": "en-vocab-008",
+      "type": "vocab",
+      "prompt": "**eloquent** 是什么意思？",
+      "hint": "形容词，形容好的演讲者",
+      "answer": "雄辩的，口才流利的，生动传神的",
+      "explanation": "例：an eloquent speech that moved the audience。名词 eloquence。词根 loqu = speak（说话）。",
+      "tags": ["CET6"]
+    },
+    {
+      "id": "en-vocab-009",
+      "type": "vocab",
+      "prompt": "**fragile** 与 **brittle** 有什么差别？",
+      "hint": "一个是易碎品标签，一个是性格/材质描述",
+      "answer": "fragile 易受伤害的、需要小心对待的（通用）；brittle 硬但易碎、缺乏韧性的（材质或性格）",
+      "explanation": "例：fragile negotiations（脆弱的谈判）/ a brittle, rigid personality（ brittle 形容人 = 刻板易折）。",
+      "tags": ["辨析"]
+    },
+    {
+      "id": "en-vocab-010",
+      "type": "vocab",
+      "prompt": "**nuance** 是什么意思？",
+      "hint": "名词，翻译里最容易丢的东西",
+      "answer": "（意义、色彩、语气上的）细微差别",
+      "explanation": "例：understand the nuance of his words。法语借词，强调「差别很小但重要」。",
+      "tags": ["CET6"]
+    },
+    {
+      "id": "en-vocab-011",
+      "type": "vocab",
+      "prompt": "**streamline** 是什么意思？",
+      "hint": "动词，办公室高频",
+      "answer": "使精简高效；使流线型",
+      "explanation": "例：streamline the approval process。本义「做成流线型减少阻力」，引申为去掉冗余环节。",
+      "tags": ["商务"]
+    },
+    {
+      "id": "en-vocab-012",
+      "type": "vocab",
+      "prompt": "**hindsight** 是什么意思？常考哪个搭配？",
+      "hint": "谚语里的常客",
+      "answer": "事后聪明，事后的认识；常考 in hindsight / with hindsight（事后看来）",
+      "explanation": "例：In hindsight, the decision was obviously wrong. hindsight is 20/20 = 事后诸葛谁都好当。",
+      "tags": ["CET6", "搭配"]
+    },
+    {
+      "id": "en-vocab-013",
+      "type": "vocab",
+      "prompt": "**resilient** 是什么意思？",
+      "hint": "形容词，形容弹簧也形容城市",
+      "answer": "有韧性的，能快速恢复的（人、系统、经济皆可）",
+      "explanation": "例：a resilient supply chain / resilient kids bounce back from failure。名词 resilience。",
+      "tags": ["雅思"]
+    },
+    {
+      "id": "en-vocab-014",
+      "type": "vocab",
+      "prompt": "**ambiguous** 是什么意思？",
+      "hint": "形容词，合同里最怕的词",
+      "answer": "模棱两可的，有歧义的",
+      "explanation": "例：an ambiguous clause led to the lawsuit。名词 ambiguity。词根 ambi = 两边，如同 ambiguous 的回答两边都能解释。",
+      "tags": ["CET6"]
+    },
+    {
+      "id": "en-vocab-015",
+      "type": "vocab",
+      "prompt": "**scrutinize** 是什么意思？",
+      "hint": "动词，审计员每天都在做",
+      "answer": "仔细审查，细看",
+      "explanation": "例：The auditors scrutinized every receipt. 名词 scrutiny（under close scrutiny 在严密审查下）。",
+      "tags": ["CET6"]
+    },
+    {
+      "id": "en-vocab-016",
+      "type": "vocab",
+      "prompt": "**tedious** 是什么意思？",
+      "hint": "形容词，形容会议",
+      "answer": "冗长乏味的，令人厌倦的",
+      "explanation": "例：a tedious three-hour meeting。近义 dull / boring，但 tedious 强调「漫长拖沓」带来的乏味。",
+      "tags": ["CET6"]
+    },
+    {
+      "id": "en-vocab-017",
+      "type": "vocab",
+      "prompt": "**prone** 常考什么搭配？",
+      "hint": "be prone to ...",
+      "answer": "易于……的，有……倾向的（多指不好的事）：be prone to errors / accidents",
+      "explanation": "例：This code path is prone to race conditions. 本义「俯卧的」，引申为「容易倒下的」。",
+      "tags": ["CET6", "搭配"]
+    },
+    {
+      "id": "en-vocab-018",
+      "type": "vocab",
+      "prompt": "**alleviate** 与 **aggravate** 是什么关系？",
+      "hint": "一对反义词",
+      "answer": "alleviate 减轻、缓和（痛苦、问题）；aggravate 使恶化、加重。互为反义。",
+      "explanation": "例：alleviate traffic congestion / The delay aggravated the shortage。记一对赚俩。",
+      "tags": ["CET6", "辨析"]
+    },
+    {
+      "id": "en-vocab-019",
+      "type": "vocab",
+      "prompt": "**integrity** 有两个常用义项，是哪两个？",
+      "hint": "一个形容人，一个形容数据",
+      "answer": "① 正直诚实（a man of integrity）；② 完整、完好（data integrity / territorial integrity）",
+      "explanation": "两个义项同源：integer（完整）→「不缺一块」→ 人格完整即正直，数据完整即未被篡改。",
+      "tags": ["CET6", "一词多义"]
+    },
+    {
+      "id": "en-vocab-020",
+      "type": "vocab",
+      "prompt": "**compelling** 是什么意思？",
+      "hint": "形容词，形容证据也形容故事",
+      "answer": "令人信服的；引人入胜的",
+      "explanation": "例：compelling evidence / a compelling narrative。动词 compel（强迫）→「让你不得不信/不得不看下去」。",
+      "tags": ["CET6", "雅思"]
+    },
+    {
+      "id": "en-vocab-021",
+      "type": "vocab",
+      "prompt": "**obsolete** 是什么意思？",
+      "hint": "形容词，形容软盘",
+      "answer": "过时的，被淘汰的",
+      "explanation": "例：The format quickly became obsolete. 动词 obsolesce；形容词 outdated 是近义但语气更弱。",
+      "tags": ["CET6"]
+    },
+    {
+      "id": "en-vocab-022",
+      "type": "vocab",
+      "prompt": "**approximate** 作动词和形容词读音一样吗？",
+      "hint": "重音位置不同",
+      "answer": "不一样。形容词 /əˈprɒksɪmət/（重音在第二音节）；动词 /əˈprɒksɪmeɪt/（末尾读 /eɪt/）",
+      "explanation": "英语里 -ate 结尾的词作形容词读 /ət/、作动词读 /eɪt/ 是成规律的：associate、graduate、deliberate 同理。",
+      "tags": ["发音"]
+    },
+    {
+      "id": "en-vocab-023",
+      "type": "vocab",
+      "prompt": "**agenda** 的字面本义是什么？",
+      "hint": "拉丁语复数",
+      "answer": "本义是「待办之事」（拉丁语 agendum 的复数，字面 = things to be done），现在指议程、议事日程",
+      "explanation": "同源词 agent（做事的人）、agile（动作敏捷）。hidden agenda = 不可告人的动机。",
+      "tags": ["词源"]
+    },
+    {
+      "id": "en-vocab-024",
+      "type": "vocab",
+      "prompt": "**leverage** 在商务语境里怎么用？",
+      "hint": "动词用法比名词更常考",
+      "answer": "名词：杠杆、影响力；动词：充分利用（leverage existing assets / our strengths）",
+      "explanation": "例：We can leverage our partner's distribution network. 金融语境 leverage = 杠杆率（高杠杆 = high leverage）。",
+      "tags": ["商务"]
+    }
+  ]
+}

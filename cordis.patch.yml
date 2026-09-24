@@ -1,0 +1,39 @@
+# idle-scholar bundle patch.
+#
+# Mounting this package inserts one plugin row. The defaults below are complete
+# on purpose: a user patch replaces the whole entry config, so restate every
+# field you want to keep when overriding one of them.
+#
+# Installing the bundle appends the package to the profile's
+# `dsh.profile.bundles`:
+#
+#   dsh plugin --profile web add /path/to/idle_scholar
+#
+# If the profile's own cordis.patch.yml already has an `idle-scholar` row,
+# delete it first: two live entries would each register the same tool names and
+# the same embedded skill, and the duplicate registration makes the plugin fail
+# to boot.
+- insert:
+    - id: idle-scholar
+      name: '@dsh-plugin/idle-scholar'
+      config:
+        # Master switch. The tools and the embedded skill mount regardless
+        # (they are cheap); this gates the system-prompt section, which is the
+        # only surface that nudges the model during idle gaps.
+        enabled: true
+        # Course drawn by `study_card` when the caller passes no course.
+        defaultCourse: 'en'
+        # Cards the user should see per day; only used for progress reporting.
+        dailyGoal: 10
+        # Expose a short system-prompt section that teaches the model when to
+        # show a card during waiting gaps.
+        promptSection: true
+        # Register the embedded `idle-scholar` skill through ctx.skills.
+        skill: true
+        # Extra directory of course packs (JSON files laid out like the bundled
+        # `courses/` tree). Loaded in addition to the built-in decks, so a
+        # community pack can be tried without forking the package.
+        # coursesDir: /absolute/path/my-courses
+        # State file location. Defaults to $DSH_HOME/idle-scholar.json, which
+        # keeps the progress log out of the repository.
+        # stateFile: /absolute/path/idle-scholar.json
