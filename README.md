@@ -35,8 +35,13 @@ Progress (per-card seen counts, daily totals, streak) is stored in
 dsh plugin --profile web add /path/to/idle_scholar
 ```
 
-Then restart the harness. If your profile's `cordis.patch.yml` already has an
+Then reload the harness. On DeepSeek Harness ≥ 0.2.1-alpha.3 with hot reload
+enabled, code updates to this plugin apply without a restart; a fresh install
+still needs one. If your profile's `cordis.patch.yml` already has an
 `idle-scholar` row, delete it first — duplicate registrations fail to boot.
+
+> Recreating a profile with `dsh … --from-default-profile` **replaces** that
+> profile, including its plugins — re-add the plugin afterwards.
 
 ## Installation (standalone skill, any agent tool)
 

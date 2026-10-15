@@ -34,3 +34,6 @@ jobs:
 
       - name: 单元与集成测试
         run: npm test
+
+      - name: 技能文件与代码一致性
+        run: npm run skill:check

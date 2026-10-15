@@ -33,8 +33,9 @@ MCP、读大文件、跑子 agent）变成学习卡片——每次等待一张�
 dsh plugin --profile web add /path/to/idle_scholar
 ```
 
-然后重启 harness。如果 profile 的 `cordis.patch.yml` 里已有 `idle-scholar`
-行，先删掉——重复注册会导致插件启动失败。
+然后重载 harness。DeepSeek Harness ≥ 0.2.1-alpha.3 且开启热重载时，插件代码更新无需重启即可生效；首次安装仍需重启。如果 profile 的 `cordis.patch.yml` 里已有 `idle-scholar` 行，先删掉——重复注册会导致启动失败。
+
+> 用 `dsh … --from-default-profile` 重建 profile 会**整体替换**该 profile（含插件列表），之后需要重新添加本插件。
 
 ## 安装（独立 skill，任意 agent 工具）
 
