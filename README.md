@@ -125,6 +125,15 @@ Prerequisites: the integration tests import the DeepSeek Harness packages
 runtime. They are `peerDependencies` — link them from your harness checkout
 or profile, and the tests skip with a clear reason if they cannot resolve.
 
+The versions this plugin develops against are pinned in `devDependencies`.
+They are published to npm but **not under the `latest` tag** — npm's `latest`
+for `@deepseek-ai/dsh-tools` is still the placeholder `0.0.1-rc.1`, while this
+plugin targets **`0.2.1-alpha.4`** (reached through the `alpha` dist-tag). Its
+companion versions are `@deepseek-ai/cordis` `4.0.5-alpha.2` and
+`@deepseek-ai/schemastery` `3.18.5-alpha.2`; pin all three together. Note that
+`alpha.4` has no dedicated `dsh-0-2-1-*` dist-tag, so the exact version strings
+in `devDependencies` are the only source of truth.
+
 ## Roadmap
 
 - [ ] Web panel (settings section + sidebar streak widget)
