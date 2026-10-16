@@ -1,6 +1,6 @@
 {
   "name": "@dsh-plugin/idle-scholar",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "private": true,
   "description": "Idle-time micro-learning for DeepSeek Harness: turns the agent's waiting gaps into flash cards. Ships seed decks for English, Japanese, and the eight subjects of the Chinese National Judicial Examination (法考), and accepts community course packs as plain JSON.",
   "keywords": [
