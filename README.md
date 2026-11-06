@@ -128,10 +128,10 @@ or profile, and the tests skip with a clear reason if they cannot resolve.
 The versions this plugin develops against are pinned in `devDependencies`.
 They are published to npm but **not under the `latest` tag** — npm's `latest`
 for `@deepseek-ai/dsh-tools` is still the placeholder `0.0.1-rc.1`, while this
-plugin targets **`0.2.2-alpha.2`** (reached through the `alpha` dist-tag). Its
-companion versions are `@deepseek-ai/cordis` `4.0.6-alpha.1` and
-`@deepseek-ai/schemastery` `3.18.6-alpha.1`; pin all three together. Note that
-`alpha.2` has no dedicated `dsh-0-2-2-*` dist-tag, so the exact version strings
+plugin targets **`0.2.2-rc.1`** (reached through the `next` dist-tag). Its
+companion versions are `@deepseek-ai/cordis` `4.1.0` and
+`@deepseek-ai/schemastery` `3.19.0`; pin all three together. Note that
+`rc.1` has no dedicated `dsh-0-2-2-*` dist-tag, so the exact version strings
 in `devDependencies` are the only source of truth.
 
 Since `0.2.2-alpha.2` the tool registry no longer owns the model-facing tool
